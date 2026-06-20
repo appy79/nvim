@@ -2,6 +2,7 @@
 .netrwhist
 undo/
 swp/
-
+NvimTree_*
+.DS_Store
 # Optional: If you use a plugin manager like Lazy.nvim, do NOT ignore lazy-lock.json.
 # It tracks your exact plugin versions, acting like a package-lock.json. Keep it tracked!
