@@ -167,6 +167,10 @@
     "branch": "main",
     "commit": "bd67efe408d4816e25e8491cc5ad4088e708a69a"
   },
+  "undotree": {
+    "branch": "main",
+    "commit": "02b69aed427b848c4dca483fc5e9524b6019c296"
+  },
   "vim-maximizer": {
     "branch": "master",
     "commit": "2e54952fe91e140a2e69f35f22131219fcd9c5f1"

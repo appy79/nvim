@@ -60,7 +60,6 @@ return {
 					"make",
 					"markdown",
 					"markdown_inline",
-					"norg",
 					"python",
 					"query",
 					"rust",
