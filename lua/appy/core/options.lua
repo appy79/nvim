@@ -24,6 +24,12 @@ opt.smartcase = true -- if you include mixed case in your search, assumes you wa
 -- cursor line
 opt.cursorline = true -- highlight the current cursor line
 
+-- keep context lines visible above/below the cursor
+opt.scrolloff = 8
+
+-- persistent undo (pairs with undotree)
+opt.undofile = true
+
 -- appearance
 
 -- turn on termguicolors for nightfly colorscheme to work
@@ -44,3 +50,11 @@ opt.splitbelow = true -- split horizontal window to the bottom
 
 -- turn off swapfile
 opt.swapfile = false
+
+-- briefly highlight yanked text
+vim.api.nvim_create_autocmd("TextYankPost", {
+	group = vim.api.nvim_create_augroup("highlight_yank", { clear = true }),
+	callback = function()
+		vim.highlight.on_yank()
+	end,
+})
