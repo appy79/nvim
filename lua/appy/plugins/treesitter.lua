@@ -108,6 +108,8 @@ return {
 			"snacks_dashboard",
 			"snacks_notif",
 			"snacks_win",
+			"NvimTree",
+			"alpha",
 		}
 
 		-- Auto-install parsers and enable highlighting on FileType

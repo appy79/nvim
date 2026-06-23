@@ -65,6 +65,11 @@ return {
 					{ "fileformat" },
 					{ "filetype" },
 				},
+				lualine_z = {
+					function()
+						return _G.is_work and "🏢 WORK" or "🏠 HOME"
+					end,
+				},
 			},
 		})
 	end,
